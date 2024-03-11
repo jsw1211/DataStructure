@@ -3,6 +3,8 @@
 
 char board[19][19] = { };
 int turn = 0;
+int bstone = 0; //검은 돌 카운트
+int wstone = 0; //흰 돌 카운트
 
 void PrintBoard() {
 	
@@ -31,9 +33,12 @@ void PutStone() {
 		if (board[j][i] == '+') {
 			board[j][i] = 'O';
 			++turn;
+			++bstone;
+			printf("검은 돌의 수 : %d, 흰 돌의 수 : %d\n", bstone, wstone);
 		}
 		else {
 			printf("돌 다시 놓아주세요\n");
+			printf("검은 돌의 수 : %d, 흰 돌의 수 : %d\n", bstone, wstone);
 			turn = 0;
 		}
 	}
@@ -41,9 +46,12 @@ void PutStone() {
 		if (board[j][i] == '+') {
 			board[j][i] = 'X';
 			++turn;
+			++wstone;
+			printf("검은 돌의 수 : %d, 흰 돌의 수 : %d\n", bstone, wstone);
 		}
 		else {
 			printf("돌 다시 놓아주세요\n");
+			printf("검은 돌의 수 : %d, 흰 돌의 수 : %d\n", bstone, wstone);
 			turn = 1;
 		}
 	}
