@@ -2,6 +2,7 @@
 #include <Windows.h>
 
 char board[19][19] = { };
+int turn = 0;
 
 void PrintBoard() {
 	
@@ -23,12 +24,28 @@ void ChangeBoard() {
 	}
 }
 
-void PutStone(int turn) {
-	turn = 0;
+void PutStone() {
 	int i, j;
 	scanf("%d %d", &i, &j);
-	if (board[j][i] == '+') {
-		board[j][i] = 'O';
+	if (turn % 2 == 0) {
+		if (board[j][i] == '+') {
+			board[j][i] = 'O';
+			++turn;
+		}
+		else {
+			printf("돌 다시 놓아주세요\n");
+			turn = 0;
+		}
+	}
+	else if(turn % 2 == 1) {
+		if (board[j][i] == '+') {
+			board[j][i] = 'X';
+			++turn;
+		}
+		else {
+			printf("돌 다시 놓아주세요\n");
+			turn = 1;
+		}
 	}
 	ChangeBoard();
 
@@ -37,10 +54,11 @@ void PutStone(int turn) {
 int main() {
 	system("cls");
 	
-	int turn = 0;
 
 	PrintBoard();
-	PutStone(turn);
+	while (1) {
+		PutStone();
+	}
 
 	return 0;
 }
