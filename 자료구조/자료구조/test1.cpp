@@ -36,8 +36,15 @@ void PutStone() {
 			++bstone;
 			printf("검은 돌의 수 : %d, 흰 돌의 수 : %d\n", bstone, wstone);
 		}
+		else if (j > 18 || i > 18 || j < 0 || i < 0) {
+			printf("범위를 벗어났습니다.\n");
+			printf("돌을 다시 놓아주세요.\n");
+			printf("검은 돌의 수 : %d, 흰 돌의 수 : %d\n", bstone, wstone);
+			turn = 0;
+		}
 		else {
-			printf("돌 다시 놓아주세요\n");
+			printf("이미 돌이 존재합니다.");
+			printf("돌을 다시 놓아주세요.\n");
 			printf("검은 돌의 수 : %d, 흰 돌의 수 : %d\n", bstone, wstone);
 			turn = 0;
 		}
@@ -49,8 +56,15 @@ void PutStone() {
 			++wstone;
 			printf("검은 돌의 수 : %d, 흰 돌의 수 : %d\n", bstone, wstone);
 		}
+		else if (j > 18 || i > 18 || j < 0 || i < 0) {
+			printf("범위를 벗어났습니다.\n");
+			printf("돌을 다시 놓아주세요.\n");
+			printf("검은 돌의 수 : %d, 흰 돌의 수 : %d\n", bstone, wstone);
+			turn = 1;
+		}
 		else {
-			printf("돌 다시 놓아주세요\n");
+			printf("이미 돌이 존재합니다.");
+			printf("돌을 다시 놓아주세요.\n");
 			printf("검은 돌의 수 : %d, 흰 돌의 수 : %d\n", bstone, wstone);
 			turn = 1;
 		}
