@@ -1,6 +1,11 @@
-﻿  test1.cpp
-  test2.cpp
-  자료구조.cpp
-  코드를 생성하고 있습니다...
-C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test1.cpp(31,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  test2.cpp
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test2.cpp(43,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test2.cpp(55,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test2.cpp(62,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test2.cpp(67,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test2.cpp(72,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test2.cpp(81,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test2.cpp(86,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test2.cpp(91,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test2.cpp(146,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   자료구조.vcxproj -> C:\Users\정승원\source\repos\DataStructure\자료구조\x64\Debug\자료구조.exe
