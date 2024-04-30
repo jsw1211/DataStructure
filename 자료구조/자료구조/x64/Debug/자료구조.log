@@ -1,3 +1,8 @@
-﻿  test5.cpp
-C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test5.cpp(39,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  test6.cpp
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test6.cpp(72,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test6.cpp(88,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test6.cpp(91,19): warning C4101: 'current' :참조되지 않은 지역 변수입니다.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test6.cpp(105,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test6.cpp(134,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\정승원\source\repos\DataStructure\자료구조\자료구조\test6.cpp(223,9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   자료구조.vcxproj -> C:\Users\정승원\source\repos\DataStructure\자료구조\x64\Debug\자료구조.exe
