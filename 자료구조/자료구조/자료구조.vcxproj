@@ -133,6 +133,8 @@
     <ClCompile Include="test4.cpp" />
     <ClCompile Include="test5.cpp" />
     <ClCompile Include="test6.cpp" />
+    <ClCompile Include="test7.cpp" />
+    <ClCompile Include="test8.cpp" />
     <ClCompile Include="자료구조.cpp">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</SDLCheck>
     </ClCompile>
